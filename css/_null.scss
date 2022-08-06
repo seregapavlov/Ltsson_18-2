@@ -1,0 +1,57 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+body,
+html {
+	height: 100%;
+	line-height: 1;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:150%;
+    letter-spacing: 0.15px; 
+    color: #4B4B4B;
+}
+[class*="__conteiner"]{
+	max-width: 1050px;
+	margin: 0 auto;
+	padding:0 15px ;
+}
+
+
+
+/* ================================================================ */

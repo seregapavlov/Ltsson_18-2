@@ -1,0 +1,60 @@
+
+ .tatle-wrapper{
+    max-width: 568px;
+   
+    
+ }
+ 
+ .tatle {
+    margin-top: 30%;
+    position: relative;
+    z-index: 2;
+    @media (max-width:930px) {
+        margin-top: 15%;
+        
+    }
+
+    
+   
+    
+  
+   
+    
+
+    // .tatle__conteiner
+
+    &__conteiner {
+    }
+   
+
+    // .tatle__button
+
+    &__button {
+    }
+}
+.tatle-text {
+    margin-bottom: 48px;
+    
+}
+.tatle-text-p {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.button {
+}
+.button-text {
+
+    // .button-text__p
+
+    &__p {
+    }
+}
+.button-arrow {
+
+    // .button-arrow__img
+
+    &__img {
+    }
+}

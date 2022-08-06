@@ -1,0 +1,103 @@
+.whoweare {
+
+    position: relative;
+    z-index: 3;
+  
+
+    // .whoweare__conteiner
+
+    &__conteiner {
+        margin-top: -5%;
+       
+        background: #ffffff;
+    }
+}
+.logo {
+    position: relative;
+    margin:110px -15px 33px 0;
+
+    .logo__content-p{
+        font-weight: 700;
+        font-size: 12px;
+        padding: 0 0 0 29px ;
+        
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #4B4B4B;
+        &::before{
+            content: "";
+            width: 25px;
+            height: 25px;
+            background: url("../img/litllogo.svg") center/contain no-repeat;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+           
+        }
+
+    }
+    
+
+}
+.tatle-main {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+    color: #02133C;
+}
+.whoweare-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 846px;
+    margin: 0 auto;
+
+    // .whoweare-content__logo
+
+    &__logo {
+        margin: 100px 0 33px 0;
+        @media (max-width:1023px) {
+            margin: 75px 0 33px 0;
+            
+        }
+        @media (max-width:723px) {
+            margin: 40px 0 33px 0;
+            
+        }
+    }
+
+    // .whoweare-content__logo-p
+
+    &__logo-p {
+    }
+
+    // .whoweare-content__tatle
+
+    &__tatle {
+        max-width: 583px;
+        margin-bottom: 36px;
+    }
+
+    // .whoweare-content__tatle-p
+
+    &__tatle-h2 {
+    }
+
+    // .whoweare-content__text
+
+    &__text {
+        margin-bottom: 54px;
+    }
+
+    // .whoweare-content__text-p
+
+    &__text-p {
+    }
+
+    // .whoweare-content__picture
+
+    &__picture {
+        background: url("../img/whoweare/Image.png") center/cover no-repeat;
+        padding: 0 0 40% 0;
+    }
+}
+
