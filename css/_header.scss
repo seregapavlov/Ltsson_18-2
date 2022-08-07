@@ -15,6 +15,11 @@
     position: sticky;
     top: 5%;
     z-index: 3;
+    @media (max-width:768px) {
+        position: static;
+        padding-top: 20px;
+        
+    }
 }
 
 .button {

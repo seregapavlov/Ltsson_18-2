@@ -33,11 +33,17 @@
     // .form__item-input
 
     &__item-input {
-        background: #f39f9f;
+        background: #F5F5F5;
         min-width: 200px;
         flex: 1 1 auto;
         width: 100%;
         padding: 14px 12px;
+        &::placeholder{
+           
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
       
         
     }
@@ -54,7 +60,7 @@
     // .form__item-textarea
 
     &__item-textarea {
-        background: #ee7676;
+        background: #F5F5F5;
         resize: none;
         min-height: 180px;
        
@@ -63,6 +69,9 @@
        
         &::placeholder{
             padding: 10px 0 0 10px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
         }
     }
 
